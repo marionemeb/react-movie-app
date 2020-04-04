@@ -1,68 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## WCS quest : React 13 - POST ton formulaire
 
-## Available Scripts
+### Insertion de ton film préféré - Énoncé :
+Tu vas créer une nouvelle application React qui s’appellera react-movie-app, permettant de saisir ton film préféré, afin de partager cette information avec tous tes camarades.
 
-In the project directory, you can run:
+ L'API est disponible sur l'URL suivante : https://post-a-form.herokuapp.com/api/movies/. Comme l'indique la documentation, la même URL est accessible en GET comme en POST (mais tu dois bien sûr utiliser POST via axios.post).
 
-### `yarn start`
+#### L'application devra comprendre :
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Un formulaire comprenant 3 champs obligatoires
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* Un champ texte pour saisir le nom du film
 
-### `yarn test`
+* Un champ texte pour saisir une URL correspondant au poster du film
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Un champ textarea permettant de saisir un commentaire (pourquoi tu aimes ce film ? qu'est-ce qui t'a marqué ? etc.)
 
-### `yarn build`
+* Un bouton permettant l'envoi du formulaire.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Un message s'affiche lorsque le film a bien été enregistré.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Pense à bien nommer les attributs du state de ton formulaire. Réfère-toi au dernier exemple de la documentation de l'API ("Create a movie") pour voir quels sont les attributs requis pour la création d'un film.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Commit et push le tout sur GitHub une fois que tu as terminé. Tu pourras alors te rendre sur CodeSandbox, te connecter à ton compte, et créer une nouvelle sandbox à partir de ton dépôt, via Import Project. N'oublie pas, une fois que tu as saisi l'URL de ton dépôt et que la sandbox s'affiche, de sauvegarder celle-ci de façon explicite (Menu File > Save ou raccourci Ctrl+S / cmd+S).
